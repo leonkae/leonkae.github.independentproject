@@ -12,6 +12,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr;
+    background-color: aliceblue;
 }
  
 
@@ -65,9 +66,9 @@ body{
     color: black !important;
 }
 
-section{
-    margin: 0 auto;
-    display: flex;
-    grid-template-columns: 1fr,1fr;
-    background-color: dodgerblue;
+.text-content{
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    color: dodgerblue;
+    font-size: 100px;
 }
