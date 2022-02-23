@@ -1,3 +1,73 @@
-h1{
-    color: red;
+
+html{
+    
+    height: 100%;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+ 
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    
+}
+
+.left-side{
+    display: flex;
+
+}
+.nav-wrapper>.left-side >div{
+    display: flex;
+    margin-right: 20px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family:  "poppins",sans-serif
+    
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-wrapper>.right-side >div{
+    display: flex;
+    margin-right: 20px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family:  "poppins",sans-serif;
+}
+
+.nav-link-wrapper a{
+    color:#8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+
+.active-nav-link a{
+    color: black !important;
+}
+
+section{
+    margin: 0 auto;
+    display: flex;
+    grid-template-columns: 1fr,1fr;
+    background-color: dodgerblue;
 }
