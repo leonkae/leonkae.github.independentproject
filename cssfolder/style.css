@@ -75,7 +75,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 70vh;
-    background: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(211, 65, 65), aqua);
     font-family: 'poppins' ,sans-serif;
     padding-top: 20px;
     padding-bottom:250px;
@@ -131,7 +131,13 @@ body{
 }
 
 /*content styles*/
+
+.content-wrapper-container{
+    background-color: #FC6D6D;
+}
 .text-content-container{
+
+
     padding-top: 50px;
     padding-bottom: 250px;
     text-align: center;
@@ -154,23 +160,35 @@ img{
     padding: 30px;
 }
 
-
+.content-wrapper{
+    background-image: linear-gradient(to right, aqua ,);
+}
 
 .profile-content-wrapper h1{
     display: flex;
     color: dodgerblue;
     font-family: 'poppins',sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .profile-content-wrapper p{
     font-family:'poppins',sans-serif;  
-font-size: 25px;
+    font-size: 20px;
 }
 
 .profile-content-wrapper a{
     text-decoration: none;
     font-size:30px;
 }
+
+/*scroll down*/
+.scroll-down{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
 
 
 
