@@ -270,3 +270,37 @@ img{
     object-fit: cover;
 }
 
+/*PROJECTS AND SKILLS*/
+.projects-skills{
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: dodgerblue;
+
+}
+.section-3-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    background: #e3edf7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill{
+    width: 160px; 
+    height: 160px;
+    /*background-color: cornflowerblue;*/
+    position: relative;
+}
+
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
