@@ -113,3 +113,22 @@ font-size: 25px;
     text-decoration: none;
     font-size:30px;
 }
+
+.text-content-container{
+   /* height: 22px;*/
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.text-content-container a{
+    text-decoration: none;
+    color: dodgerblue;
+    transition: color 0.5s;
+}
+
+.text-content-container a:hover{
+    background: -webkit-linear-gradient(rgb(0, 255, 242), rgb(38, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
