@@ -5,6 +5,7 @@ html{
 }
 
 body{
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
     margin: 0px;
@@ -68,21 +69,74 @@ body{
 }
 /*theme toggler*/
 
+/*landing page animation*/
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    background: rgb(255, 255, 255);
+    font-family: 'poppins' ,sans-serif;
+    padding-top: 20px;
+    padding-bottom:250px;
+    display: flex;
+}
+.wrapper .static-txt{
+  color: dodgerblue;
+  font-size: 60px;
+  font-weight: 600;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 800;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:white;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
 /*content styles*/
 .text-content-container{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 250px;
     text-align: center;
     font-family: 'poppins',sans-serif;
     color: dodgerblue;
-    font-size: 100px;
-}
-.showcase-area>.container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    justify-content: center;
-    background-color: dodgerblue;
+    font-size: 60px;
 }
 
 
@@ -99,7 +153,10 @@ img{
     padding: 30px;
 }
 
+
+
 .profile-content-wrapper h1{
+    display: flex;
     color: dodgerblue;
     font-family: 'poppins',sans-serif;
     font-size: 30px;
@@ -114,20 +171,6 @@ font-size: 25px;
     font-size:30px;
 }
 
-.text-content-container{
-   /* height: 22px;*/
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-}
 
-.text-content-container a{
-    text-decoration: none;
-    color: dodgerblue;
-    transition: color 0.5s;
-}
 
-.text-content-container a:hover{
-    background: -webkit-linear-gradient(rgb(0, 255, 242), rgb(38, 0, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
