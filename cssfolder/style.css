@@ -136,6 +136,7 @@ body{
 
 .content-wrapper-container{
     background-color:  #FFE338;
+    position: absolute;
 }
 
 .text-content-container{
@@ -238,5 +239,34 @@ img{
 }
 
 
+/*about title*/
+.about-text{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    color: dodgerblue;
+    font-weight: 700;
+    font-size: 40px;
+}
 
+/*images grid*/
+.profile-image-wrapper{
+    --gap: 16px;
+    --num-cols:2;
+    --row-height: 300px;
+    
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr );
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+
+}
+
+.profile-image-wrapper > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
