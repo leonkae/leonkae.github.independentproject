@@ -9,13 +9,13 @@ body{
     background-position: center;
     margin: 0px;
 }
+/*navbar styles*/
 .container{
     display: grid;
     grid-template-columns: 1fr;
     background-color: aliceblue;
 }
  
-
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
@@ -64,11 +64,16 @@ body{
 
 .active-nav-link a{
     color: black !important;
-}
 
+}
+/*theme toggler*/
+
+/*content styles*/
 .text-content{
     text-align: center;
     font-family: 'poppins',sans-serif;
     color: dodgerblue;
     font-size: 100px;
 }
+
+
