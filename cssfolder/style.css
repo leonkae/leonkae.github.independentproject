@@ -419,3 +419,16 @@ img{
 .progress-line.git span::after{
     content: 70%;
 }
+
+.footer-design{
+    height: 110px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(to right, yellow,dodgerblue);
+    text-align: center;
+
+
+}
