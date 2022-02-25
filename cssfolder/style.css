@@ -77,7 +77,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 70vh;
-    background-image: linear-gradient(to right, black, black);
+    background-image: linear-gradient(to right,black , black);
     font-family: 'poppins' ,sans-serif;
     padding-top: 20px;
     padding-bottom:250px;
@@ -135,7 +135,11 @@ body{
 /*content styles*/
 
 .content-wrapper-container{
-    background-color:  #FFE338;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /*background-color:  #FFE338;*/
     position: absolute;
 }
 
@@ -155,10 +159,10 @@ body{
     column-gap: px;
 }
 
-img{
+/*img{
     padding-right: px;
     width:100%;
-}
+}*/
 
 .profile-content-wrapper{
     padding: 30px;
@@ -427,8 +431,11 @@ img{
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
     font-weight: 600;
-    background-image: linear-gradient(to right, yellow,dodgerblue);
+    background-image: linear-gradient(to right rgb(17, 17, 17) ,black);
+    object-fit: cover;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 
 
 }
