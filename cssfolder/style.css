@@ -225,20 +225,24 @@ body{
         top: 90%;
     }
 }
+/*heading-project*/
 
 #projects{
     background-image: linear-gradient(to right,#FC6D6D,dodgerblue)    ;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
     max-height: 80vh;
     
+}
+.projects-section{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .projects-container{
     padding: 10rem 0;
     font-family: 'poppins',sans-serif;
+    gap: 20px;
 }
+
 .projects-container .item{
     display: flex;
     align-items: center;
@@ -269,6 +273,7 @@ body{
 .projects-container .item:nth-of-type(even).left{
     margin-left: -150px;
 }
+
 
 /*scroll down 2*/
 .scroll-text{
