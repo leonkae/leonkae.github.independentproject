@@ -139,7 +139,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
-    /*background-color:  #FFE338;*/
+    background-color:  #FFE338;
     position: absolute;
 }
 
@@ -159,10 +159,6 @@ body{
     column-gap: px;
 }
 
-/*img{
-    padding-right: px;
-    width:100%;
-}*/
 
 .profile-content-wrapper{
     padding: 30px;
@@ -179,6 +175,7 @@ body{
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 .profile-content-wrapper p{
     font-family:'poppins',sans-serif;  
@@ -260,6 +257,7 @@ body{
     
     box-sizing: border-box;
     padding: var(--gap);
+    padding-top: 30px;
 
     display: grid;
     grid-template-columns: repeat(var(--num-cols),1fr );
