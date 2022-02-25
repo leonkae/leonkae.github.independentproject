@@ -24,7 +24,7 @@ above is one half of the about page
  * JAVASCRIPT
 
  # Links
-[text](htttps://...)
+[text](https://github.com/leonkae/portfolio-chainsaw.git)
 
 # Copyright and License Information
 
