@@ -17,6 +17,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     background-color: black;
+    max-height: 800px;
 }
  
 .nav-wrapper{
@@ -150,9 +151,7 @@ body{
 .profile-content-wrapper{
     padding: 30px;
 }
-.content-wrapper{
-    background-image: linear-gradient(to right, aqua ,);
-}
+
 .projects-heading{
     text-transform: uppercase;
     text-align: center;
@@ -232,6 +231,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    
 }
 
 .projects-container{
@@ -270,6 +270,9 @@ body{
 }
 
 /*scroll down 2*/
+.scroll-text{
+    font-family: 'poppins', sans-serif;
+}
 .scroll-down-2{
     height: 50px;
     width: 30px;
@@ -547,6 +550,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
+    font-size: 30px;
     font-weight: 600;
     background-image: linear-gradient(to right rgb(17, 17, 17) ,black);
     object-fit: cover;
